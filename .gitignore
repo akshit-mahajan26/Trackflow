@@ -1,0 +1,18 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/.env
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/tests/.uploads/
+backend/.e2e-uploads/
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/
+# Ops
+backups/
+.env
